@@ -1,0 +1,32 @@
+/* Reposition the container color bar to the sides of the tab */
+
+#tabbrowser-tabs .tab-context-line {
+    display: none;
+}
+
+#tabbrowser-tabs .tab-background {
+    border-right: solid 2px var(--identity-icon-color) !important;
+    border-left: solid 2px var(--identity-icon-color) !important;
+    transition: all .15s ease-in-out !important;
+}
+
+#tabbrowser-tabs .tab-background[selected="true"] {
+    border-right: solid 4px var(--identity-icon-color, #fff) !important;
+    border-left: solid 4px var(--identity-icon-color, #fff) !important;
+}
+
+/* All deselected tabs should have text with lower visibility */
+
+.tab-label:not([selected="true"]) {
+    color: #ddd !important;
+}
+
+/* Resize favicons in tab bar */
+
+.tab-icon-image {
+    /* Initially 16x16 */
+    height: 20px !important;
+    width: 20px !important;
+    /* Was 5.5, and since we added 4px to 16, we subtract 4 here: */
+    margin-inline-end: 1.5px !important;
+}
