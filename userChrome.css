@@ -47,3 +47,17 @@
 #urlbar-input-container:hover>#page-action-buttons {
     opacity: 1;
 }
+
+/* Hide close buttons on tabs */
+
+tab[selected="true"]>stack>hbox>.tab-close-button {
+    opacity: 1 !important;
+    display: block !important;
+    transition: .25s all ease-in-out !important;
+}
+
+tab:not([selected="true"])>stack>hbox>.tab-close-button {
+    opacity: 0 !important;
+    transform: scale(0) !important;
+    transition: .25s all ease-in-out !important;
+}

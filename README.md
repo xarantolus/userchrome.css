@@ -2,7 +2,7 @@
 Firefox allows users to change its interface using CSS. Let's do that!
 
 ### Customizations
-The goals of this project are basically small things that I didn't really like about the Firefox UI:
+The goal of this project is to basically fix small things I didn't really like about the Firefox UI:
 * The selected tab does not stand out enough from the others
 * The URL bar is a bit cluttered with all buttons displayed
 
@@ -21,6 +21,8 @@ With that in mind, here are the customizations:
 * The URL bar buttons are only displayed when hovering over it
 
 ![alt](.github/screenshots/urlbar.gif)
+
+* Do not display close buttons on tabs, except for the currently selected tab
 
 ### How to use
 1. Open Firefox
