@@ -11,8 +11,8 @@
 }
 
 #tabbrowser-tabs .tab-background[selected="true"] {
-    border-right: solid 4px var(--identity-icon-color, #fff) !important;
-    border-left: solid 4px var(--identity-icon-color, #fff) !important;
+    border-right: solid 5px var(--identity-icon-color, #fff) !important;
+    border-left: solid  5px var(--identity-icon-color, #fff) !important;
 }
 
 /* All deselected tabs should have text with lower visibility */
