@@ -19,12 +19,12 @@ With that in mind, here are the customizations:
 ### How to use
 1. Open Firefox
 2. Visit the `about:profiles` page by typing it into the URL bar
-3. Open a command prompt / terminal and `cd` to the folder displayed as root directory of the profile
+3. Open a command prompt / terminal and `cd` to the folder displayed as root directory of the currently selected profile
 4. Run this command to download this repo into the `chrome` folder
 ```sh
 git clone https://github.com/xarantolus/userchrome.css.git chrome
 ```
-5. Restart Firefox
+5. Restart Firefox. The theme should now be applied.
 
 ### How to develop
 There's a [tutorial on Reddit](https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/) on how to edit the Firefox UI like a website using the built-in developer tools.
