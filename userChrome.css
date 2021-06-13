@@ -12,7 +12,7 @@
 
 #tabbrowser-tabs .tab-background[selected="true"] {
     border-right: solid 5px var(--identity-icon-color, #fff) !important;
-    border-left: solid  5px var(--identity-icon-color, #fff) !important;
+    border-left: solid 5px var(--identity-icon-color, #fff) !important;
 }
 
 /* All deselected tabs should have text with lower visibility */
@@ -29,4 +29,21 @@
     width: 20px !important;
     /* Was 5.5, and since we added 4px to 16, we subtract 4 here: */
     margin-inline-end: 1.5px !important;
+}
+
+/* Remove the small arrow from the search bar */
+
+.search-go-container {
+    display: none !important;
+}
+
+/* Remove additional buttons from the URL bar, but show them on hover */
+
+#urlbar-input-container>#page-action-buttons {
+    opacity: 0;
+    transition: .15s all ease-in-out;
+}
+
+#urlbar-input-container:hover>#page-action-buttons {
+    opacity: 1;
 }
