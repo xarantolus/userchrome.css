@@ -5,8 +5,8 @@
 }
 
 #tabbrowser-tabs .tab-background {
-    border-right: solid 2px var(--identity-icon-color) !important;
-    border-left: solid 2px var(--identity-icon-color) !important;
+    border-right: solid 2px var(--identity-icon-color, #ccc) !important;
+    border-left: solid 2px var(--identity-icon-color, #ccc) !important;
     transition: all .15s ease-in-out !important;
 }
 
