@@ -37,15 +37,28 @@
     display: none !important;
 }
 
-/* Remove additional buttons from the URL bar, but show them on hover */
+/* Remove additional buttons from the URL bar, but show them on hover with a small delay */
 
 #urlbar-input-container>#page-action-buttons {
     opacity: 0;
-    transition: .15s all ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #urlbar-input-container:hover>#page-action-buttons {
+    animation: .5s delayedFadeIn ease-in-out;
     opacity: 1;
+}
+
+@keyframes delayedFadeIn {
+    0% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Hide close buttons on tabs */
