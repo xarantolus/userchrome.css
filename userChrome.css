@@ -21,16 +21,6 @@
     color: #ddd !important;
 }
 
-/* Resize favicons in tab bar */
-
-.tab-icon-image {
-    /* Initially 16x16 */
-    height: 20px !important;
-    width: 20px !important;
-    /* Was 5.5, and since we added 4px to 16, we subtract 4 here: */
-    margin-inline-end: 1.5px !important;
-}
-
 /* Remove the small arrow from the search bar */
 
 .search-go-container {

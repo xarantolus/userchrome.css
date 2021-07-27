@@ -13,7 +13,6 @@ With that in mind, here are the customizations:
   * The currently selected tab has wider borders, which makes it more visible
   * There is an animated border transition when selecting a new tab
 * Tabs that are not selected have a slightly less visible font
-* The size of the favicon image in the tab bar is slightly increased
 
 ![tab switch gif](.github/screenshots/tabswitch.gif)
 
