@@ -21,10 +21,16 @@
     color: #ddd !important;
 }
 
-/* Remove the small arrow from the search bar */
+/* Remove the small arrow from the search bar, except when hovered */
 
-.search-go-container {
-    display: none !important;
+#searchbar>.search-go-container {
+    opacity: 0;
+    transition: all .35s ease-in-out;
+}
+
+#searchbar:hover>.search-go-container {
+    animation: .35s delayedFadeIn ease-in-out;
+    opacity: 1;
 }
 
 /* Remove additional buttons from the URL bar, but show them on hover with a small delay */

@@ -16,7 +16,7 @@ With that in mind, here are the customizations:
 
 ![tab switch gif](.github/screenshots/tabswitch.gif)
 
-* The small search bar no longer displays an arrow when typing in text
+* The small search bar only displays the arrow button when the mouse is hovering over it (also with a small delay)
 * The URL bar buttons are only displayed when hovering over it, with a small delay
 
 ![alt](.github/screenshots/urlbar.gif)
