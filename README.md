@@ -34,6 +34,8 @@ git clone https://github.com/xarantolus/userchrome.css.git chrome
 ```
 6. Restart Firefox. The theme should now be applied.
 
+**Alternative**: Instead of doing step 4 and 5 you can also just directly download the [`userChrome.css`](userChrome.css) file, create a `chrome` directory in the profile directory (shown on the `about:profiles` page) and place the downloaded file there.
+
 ### How to develop
 There's a [tutorial on Reddit](https://www.reddit.com/r/FirefoxCSS/comments/73dvty/tutorial_how_to_create_and_livedebug_userchromecss/) on how to edit the Firefox UI like a website using the built-in developer tools.
 
